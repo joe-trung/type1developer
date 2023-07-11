@@ -1,0 +1,39 @@
+.containerx{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pagesx{
+    display:flex;
+    width: 400%;
+    box-sizing: border-box;
+}
+
+.pagex{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 1s;
+}
+
+.one{
+    background-color: green;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: gray;
+}
+
+.four{
+    background-color: orange;
+}

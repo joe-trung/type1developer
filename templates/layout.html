@@ -6,18 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Type 1 Developer - By Trung Tran</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="css/jquery.min.js"></script>
   <script src="css/popper.min.js"></script>
   <script src="css/bootstrap.min.js"></script>
+  <script src="css/script.js"></script>
   <style>
     .navbar-light .navbar-nav .nav-link {
-      font-size: 1.5em;
+      font-size: 1.3em;
       font-weight: bold;
       color: white;
     }
   </style>
 </head>
+<!--end head-->
 
+<!--body-->
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -50,7 +54,7 @@
             <a class="nav-link" href="#">T1D and Technology</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Data Analysis Projects</a>
+            <a class="nav-link" href="#">Data Analysis and Insights</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Web Apps</a>
@@ -64,27 +68,67 @@
       </div>
     </nav>
   </header>
+<!--end header-->
 
   <main>
-        <br>
-    <br>
-    <h1>what in the world is going on</h1>
-    <br>
-    <br>
-        <br>
-    <br>
-        <br>
-    <br>
-        <br>
-    <br>
-  </main>
+<!--    page1-->
+    <div class="containerx">
+      <div class="pagesx">
+        <div class="pagex one">
+          <h1>Page 1</h1>
+          <div>
+            <button onclick="slide('next')">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+<!--    pag 2-->
+    <div class="containerx">
+      <div class="pagesx">
+        <div class="pagex two">
+          <h1>Page 2</h1>
+          <div>
+            <button onclick="slide('prev')">Prev</button>
+            <button onclick="slide('next')">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--    page 3-->
+    <div class="containerx">
+      <div class="pagesx">
+        <div class="pagex three">
+          <h1>Page 3</h1>
+          <div>
+            <button onclick="slide('prev')">Prev</button>
+            <button onclick="slide('next')">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--    page 4-->
+    <div class="containerx">
+      <div class="pagesx">
+        <div class="pagex four">
+          <h1>Page 4</h1>
+          <div>
+            <button onclick="slide('prev')">Prev</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+<!--end main-->
+
+<!--  footer-->
   <footer  class="bg-light text-white">
     <div class="container">
       <div class="row">
           <p style="font-size: 1.2em;">
             <a href="#" style="color: white; margin-right: 10px;">About</a>
-            <a href="#" style="color: white; margin-right: 10px;">Copyright</a>
             <a href="#" style="color: white; margin-right: 10px;">Contact</a>
             <a href="#"><img src="img/fb.png" alt="Facebook" style="width: 30px; height: 30px; margin-left: 10px;"></a>
             <a href="#"><img src="img/twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-left: 10px;"></a>
@@ -94,6 +138,9 @@
             <a href="#"><img src="img/linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-left: 10px;"></a>
           </p>
       </div>
+      <p style="font-size: 1.2em; color:white;">
+        © 2023 Trung Tran. All rights reserved.
+      </p>
     </div>
   </footer>
 </body>

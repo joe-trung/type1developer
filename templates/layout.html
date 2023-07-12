@@ -1,148 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>type 1 Developer - by Trung Tran</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Type 1 Developer - By Trung Tran</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="css/jquery.min.js"></script>
-  <script src="css/popper.min.js"></script>
-  <script src="css/bootstrap.min.js"></script>
-  <script src="css/script.js"></script>
-  <style>
-    .navbar-light .navbar-nav .nav-link {
-      font-size: 1.3em;
-      font-weight: bold;
-      color: white;
-    }
-  </style>
-</head>
-<!--end head-->
+        <!-- Logo icon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo1.png" />
 
-<!--body-->
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#"><img src="img/logo3.png" alt="Logo" style="width: 200px; height: 100px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
-        aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarMenu">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About The Project</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">T1D Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Lifestyle Tips</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">News and Updates</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Personal Stories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Community and Support</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">T1D and Technology</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Data Analysis and Insights</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Web Apps</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-<!--end header-->
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
-  <main>
-<!--    page1-->
-    <div class="containerx">
-      <div class="pagesx">
-        <div class="pagex one">
-          <h1>Page 1</h1>
-          <div>
-            <button onclick="slide('next')">Next</button>
-          </div>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/logo3.png" style="width: 200px; height: 60px;" alt="type 1 Developer" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Explore
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#T1D">type1Developer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#versions">Versions</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">print(f"Welcome to" {type_1_Developer} "!")</div>
+                <div class="masthead-heading text-uppercase text-orange">Insulin To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#T1D">Tell Me More</a>
+            </div>
+        </header>
+
+        <!-- Type1Developer-->
+        <section class="page-section" id="T1D">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">What is T1D?</h2>
+                    <h3 class="section-subheading text-muted">This is where Type 1 Diabetes meet Software Developer.</h3>
+                </div>
+                <div class="row text-center">
+                    <!-- syringe from font awesome-->
+                    <div class="col-md-4 column-divider">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-syringe fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Type 1 Diabetes</h4>
+                        <p class="text-muted">Type 1 diabetes is a chronic autoimmune condition where the pancreas produces little to no insulin. It requires lifelong insulin therapy to manage blood sugar levels. It is typically diagnosed in childhood and requires careful monitoring and medical management. There is no cure and no prevention yet.</p>
+                    </div>
+
+                    <!--circle logo -->
+                    <div class="col-md-4 column-divider">
+                        <span class="fa-stack fa-4x">
+                            <img src="assets/img/logo1.png" style="width:135px; height:135px" alt="Logo" class="logo-image">
+                        </span>
+                        <h4 class="my-3">Type 1 Developer</h4>
+                        <p class="text-muted">With personal experience managing type 1 diabetes, I am driven to contribute my technical expertise, problem-solving skills, and passion for data to improve our understanding and treatment of this condition. I bring a unique perspective and a dedication to making a meaningful impact in the field of diabetes research.</p>
+                    </div>
+
+                    <!--computer from font awesome-->
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Software Developer</h4>
+                        <p class="text-muted">I am Trung Tran, a highly motivated and entrepreneurial Data Engineer with a Master of Business Administration and a strong background in Python, SQL, and AWS. I am passionate about leveraging machine learning and AI to explore and uncover valuable insights related to type 1 diabetes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Projects</h2>
+                    <h3 class="section-subheading text-muted">Current and future projects.</h3>
+                </div>
+                <div class="row">
+                    <!-- Portfolio item 1-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Type 1 Diabetes</div>
+                                <div class="portfolio-caption-subheading text-muted">Educational content</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio item 2-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Technology</div>
+                                <div class="portfolio-caption-subheading text-muted"> Type 1 Diabetes and Technology</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio item 3-->
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Analysis</div>
+                                <div class="portfolio-caption-subheading text-muted">Data Analysis and Insights</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio item 4-->
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Costs</div>
+                                <div class="portfolio-caption-subheading text-muted">The cost of type 1 diabetes</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio item 5-->
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Living with Type 1 Diabetes</div>
+                                <div class="portfolio-caption-subheading text-muted">Lifestyle Tips, Recipes and Meal Plans</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio item 6-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Researches</div>
+                                <div class="portfolio-caption-subheading text-muted">Research projects and applications</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Timeline of notable events.</h3>
+                </div>
+
+                <ul class="timeline">
+
+                    <!--starting point-->
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>05/02/2022</h4>
+                                <h4 class="subheading">Starting Point</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> I experienced a significant event in my life when I was hospitalized and received a diagnosis of type 1 diabetes. Transitioning from a previously healthy individual to a patient with a chronic disease was a shocking experience. However, I swiftly adapted and embraced the new reality, determined to regain control over my life. I embarked on a journey of learning how to effectively manage my condition, empowering myself to stay on top of the challenges that come with it.</p></div>
+                        </div>
+                    </li>
+
+                    <!--turning point-->
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>November 2022</h4>
+                                <h4 class="subheading">Turning Point</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Six months after my diagnosis, I came to the realization that my physical strength had diminished. However, I discovered that my mental fortitude had grown stronger than ever before. While I could no longer sustain the demanding schedule of working as a business owner 15 hours a day, 7 days a week, I remained determined to pursue my passion for technology. My decision to embark on this new journey as a data engineer stemmed from three primary motivations. First and foremost, it allowed me to engage in work that I truly love. Additionally, it provided an opportunity to strike a balance between my professional life and personal well-being. Lastly, it offered a means to deepen my understanding of my condition through data science. With these driving forces, I set forth on this path, eager to embrace the challenges and opportunities that lie ahead.</p></div>
+                        </div>
+                    </li>
+
+                    <!-- ready-->
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>May 2023</h4>
+                                <h4 class="subheading">Ready to Roll</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">As I commemorate the one-year milestone since the life-altering trauma, I am thrilled to announce my successful completion of the data engineer program, officially marking my entry into the realm of professional software development. While I have been coding since high school, I have never experienced the level of excitement and anticipation that I feel now. Equipped with the knowledge and skills acquired throughout my journey, I am fully prepared to embark on this new chapter of my life, dedicated to producing high-quality code and creating meaningful technological solutions.</p></div>
+                        </div>
+                    </li>
+
+                    <!-- begining of the project-->
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 2023</h4>
+                                <h4 class="subheading">Project Started</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">With a complete arsenal of skills necessary to undertake this ambitious project, there is no justification for further delay. Setting my sights on turning this vision into reality, I initiated the endeavor on my very birthday, coinciding with the release of my 100th GitHub project. These numbers carry profound significance and affirm my belief in the tremendous potential of this venture. As I reflect upon this moment, a single word encapsulates my sentiments: SATISFACTION.</p></div>
+                        </div>
+                    </li>
+
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Stories
+                                <br />
+                                To Be
+                                <br />
+                                Continued!
+                            </h4>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Versions-->
+        <section class="page-section bg-light" id="versions">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">My Versions</h2>
+                    <h3 class="section-subheading text-muted">Understand different versions of the amazing Trung.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                            <h4>Trung Tran 1.0</h4>
+                            <p class="text-muted">Coder With No Computer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/joe-trung" aria-label="Trung Tran GitHub Profile"><i class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.coursera.org/user/0728c031c1652cf1fcb1c862990e5eb3" aria-label="Trung Tran Coursera Account"><i class="fas fa-graduation-cap"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
+                            <h4>Trung Tran 2.0</h4>
+                            <p class="text-muted">MBA Graduate, Successful Business Owner</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Trung Tran Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/trung-d-tran/" aria-label="Trung Tran LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
+                            <h4>Trung Tran 3.0</h4>
+                            <p class="text-muted">Data Engineer, Type 1 Developer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Trung Tran Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/" aria-label="Trung Tran YouTube Channel"><i class="fab fa-youtube"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Growing up in a low-income family in a developing country, Trung Tran 1.0 always aspired to excel academically and be among the top students in his grade school. Despite his passion for coding and specialization in computer science during high school, he faced the challenge of not owning a personal computer, preventing his dream of becoming a developer from materializing.
+                        <br></br>Undeterred by the limitations he faced, Trung Tran 2.0 pursued higher education, moved to the United States, completed his MBA, and accomplished feats that Trung Tran 1.0 could never have imagined. Starting his own business and achieving remarkable milestones became part of his reality.
+                        <br></br>Now, as Trung Tran 3.0, he is actively pursuing the dream that Trung Tran 1.0 held dear, realizing his passion for development. Alongside this pursuit, he is determined to strike a harmonious balance in life, an aspect that Trung Tran 2.0 yearned for but could not fully attain. Today, Trung Tran 3.0 proudly embraces his identity as a type 1 developer, merging his aspirations with the experiences and wisdom gained from his unique journey.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted">I'm actively listening to any of your comments and suggestions.</h3>
+                </div>
+
+                <form action="mailto:trung.trand@gmail.com" method="POST" enctype="text/plain">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" type="text" id="name" placeholder="Your Name *" name="name" required>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" type="email" id="email" placeholder="Your Email Address *" name="email" required>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" type="tel" id="phone" placeholder="Your Phone Number *" name="phone" required>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 text-lg-start">Copyright &copy; type 1 Developer 2023</div>
+                    <div class="col-lg-6 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/trung-d-tran/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/joe-trung" aria-label="Github"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.coursera.org/user/0728c031c1652cf1fcb1c862990e5eb3" aria-label="Coursera"><i class="fas fa-graduation-cap"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Education</h2>
+                                    <p class="item-intro text-muted">Type 1 Diabetes Educational Information</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <p>Provide comprehensive and easy-to-understand information about type 1 diabetes, including its causes, symptoms, diagnosis, and treatment options. Break down complex medical jargon into layman's terms to make it accessible to a wide audience.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-<!--    pag 2-->
-    <div class="containerx">
-      <div class="pagesx">
-        <div class="pagex two">
-          <h1>Page 2</h1>
-          <div>
-            <button onclick="slide('prev')">Prev</button>
-            <button onclick="slide('next')">Next</button>
-          </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Technology</h2>
+                                    <p class="item-intro text-muted">Technology and Type 1 Diabetes.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                    <p>Explore the intersection of technology and diabetes management. Discuss the latest advancements in glucose monitoring devices, insulin pumps, and continuous glucose monitors (CGMs). Explain how software applications can help track blood sugar levels, carbohydrate intake, and insulin doses.</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-<!--    page 3-->
-    <div class="containerx">
-      <div class="pagesx">
-        <div class="pagex three">
-          <h1>Page 3</h1>
-          <div>
-            <button onclick="slide('prev')">Prev</button>
-            <button onclick="slide('next')">Next</button>
-          </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Analysis</h2>
+                                    <p class="item-intro text-muted">Data Analysis and Insights.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
+                                    <p>Leverage my skills as a data engineer to provide data-driven insights about type 1 diabetes. Showcase visualizations, trends, and patterns that can help patients understand their condition better. For example, I could analyze blood sugar data to identify correlations with diet, exercise, or medication.</p>
+                                   <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-<!--    page 4-->
-    <div class="containerx">
-      <div class="pagesx">
-        <div class="pagex four">
-          <h1>Page 4</h1>
-          <div>
-            <button onclick="slide('prev')">Prev</button>
-          </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Costs</h2>
+                                    <p class="item-intro text-muted">The cost of type 1 diabetes.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <p>Coming Soon</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </main>
-<!--end main-->
 
-<!--  footer-->
-  <footer  class="bg-light text-white">
-    <div class="container">
-      <div class="row">
-          <p style="font-size: 1.2em;">
-            <a href="#" style="color: white; margin-right: 10px;">About</a>
-            <a href="#" style="color: white; margin-right: 10px;">Contact</a>
-            <a href="#"><img src="img/fb.png" alt="Facebook" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-            <a href="#"><img src="img/twitter.png" alt="Twitter" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-            <a href="#"><img src="img/instagram.png" alt="Instagram" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-            <a href="#"><img src="img/youtube.png" alt="YouTube" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-            <a href="#"><img src="img/github.png" alt="GitHub" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-            <a href="#"><img src="img/linkedin.png" alt="LinkedIn" style="width: 30px; height: 30px; margin-left: 10px;"></a>
-          </p>
-      </div>
-      <p style="font-size: 1.2em; color:white;">
-        © 2023 Trung Tran. All rights reserved.
-      </p>
-    </div>
-  </footer>
-</body>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Living Type 1</h2>
+                                    <p class="item-intro text-muted">Lifestyle Tips, Recipes and Meal Plans.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <p>Coming Soon</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Researches</h2>
+                                    <p class="item-intro text-muted">Research projects and applications.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                    <p>Consider developing an app that integrates with the website. The app could provide features like blood sugar tracking, medication reminders, access to educational content, and community support.</p>
+                                   <ul class="list-inline">
+                                        <li>
+                                            <strong>Link 1:</strong>
+                                            Coming Soon
+                                        </li>
+                                        <li>
+                                            <strong>Link 2:</strong>
+                                            Coming Soon
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

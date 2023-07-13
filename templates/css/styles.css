@@ -11325,3 +11325,19 @@ section#contact form#contactForm :-ms-input-placeholder {
 .text-orange {
   color: orange;
 }
+
+body {
+  margin: 0;
+  padding-bottom: 60px; /* Adjust this value to match the height of your footer */
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
